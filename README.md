@@ -1,23 +1,28 @@
 # SVENBERG DESIGN LAB
 ## Code Institute - Milestone Project 1
+This website has been designed to showcase the work of Svenberg Design Lab, and to be a place for prospective customers and collabortors to explore the previous work of the company.
+The target audience consists of two groups; the private customer who has a design-wish to be fulfulled, and the professional customer looking for a design-company for collaboration.
+
+![Picture of different view-port-displays]()
 
 Click here to view the website
-
-This website hs been designed to....
 
 ## User Experience (UX):
 
 ### User stories
 
 #### First time visitor goals
-
+To find information about a company I'm curious about. To see their projects and their style. To confirm the quality and trustworthyness of the company.
 
 #### Returning visitor goals
+To be able to find the project I'm looking for quicly. Perhaps look at different projects and different design-areas than on my first visit. Get a feel for the company as a whole.
 
 #### Frequent user goals
+To be able to find the project I'm looking for quicly, and to be able to see all projects in each design-area on one page, in order to compare and find what is interesting.
 
 #### Site owner goals
-
+To show prospective customers and partners what we do, our style and our high quality. As we work in several different design-areas, it is important that the visitor understands that they are at the right company-site regardless of what area they first have come in contact with. Therefore the different ares must be shown as equals, and not (for instance) primarily interior-design, and the other areas as additions. 
+Another important reason behind the site is simply to collect and showcase previous project in one coherent space. 
 
 ## Design:
 
@@ -34,6 +39,9 @@ This website hs been designed to....
 ## Features:
 
 
+#### Future features
+Feedback from previous customers
+
 ## Issues overcome:
 
 
@@ -41,6 +49,7 @@ This website hs been designed to....
 #### Programming languages
 
 #### Frameworks, libraries and programs
+
 
 ## Testing:
 
@@ -55,13 +64,14 @@ This website hs been designed to....
 #### Unfixed bugs
 
 
-## Deployment
+## Deployment:
 
 #### Github pages
 
 #### Forking the GitHub repository
 
 #### Making a local clone
+
 
 ## Credits:
 
