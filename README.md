@@ -35,7 +35,7 @@ Poppins is a straight-forward, easily-approachable font, that is both elegant an
 <br>
 Open Sans works well with Poppins, as it has much of the same overall feeling, a simple, nicely spaced look (not too narrow), and with lovely old-fashioned g's that gives it a nice, comforting feeling.
 
-![Picture of sample Poppins and Open Sans](assets/images/fonts-poppins-and-open-sans.JPG)
+![Picture of sample Poppins and Open Sans](assets/images/readme-images/fonts-poppins-and-open-sans.JPG)
 
 
 ### Imagery:
