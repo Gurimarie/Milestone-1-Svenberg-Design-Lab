@@ -69,17 +69,24 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 ### Further testing:
 
 ### Fixed bugs:
+
+#### Navbar dropdown-issues
 ![Picture of nav-bar with nav-items not nested](assets/images/readme-images/problem-undercategories-dropdown-menu.JPG)
 
-- Bug 1: No drop-down-list under each design-heading in nav-bar.
-- Fix: Made correction from "data-toggle" to "data-bs-toggle" as an attribute of the <a>-element that is the parent of the nested list, and the sublists now function. Has been fixed with info from https://getbootstrap.com/docs/5.0/components/navbar/
-- Addition: The bootstrap-docs use <ul>-element and <li>-elements also in the nested lists (here under Fashion Design, Interior Design etc.) but it seems to work fine with <ul>-element and <li>-elements for the main nav-bar-list and just div (class dropdown-menu) + a (class dropdown-item) in the sublist. For now I keep fashion and interior with ul/li, and product and art with div/a, and I can see how they fare moving forward with the completerion of the nav-bar. 
+- Nav-dropdown part 1: No drop-down-list under each design-heading in nav-bar.
+- Fix: Made correction from "data-toggle" to "data-bs-toggle" as an attribute of the a-element that is the parent of the nested list, and the sublists now function. Has been fixed with info from https://getbootstrap.com/docs/5.0/components/navbar/
+- Addition: The bootstrap-docs use ul-element and li-elements also in the nested lists (here under Fashion Design, Interior Design etc.) but it seems to work fine with ul-element and li-elements for the main nav-bar-list and just div (class: dropdown-menu) + a (class: dropdown-item) in the sublist. At first I kept fashion and interior with ul/li, and product and art with div/a, and it did seem to work both ways, but I decided to go with ul/li in all sub-lists as well, as it seems more orderly and more semantically correct. 
+
+- Nav-dropdown part 2: Each design-heading shows up separately in the nav-bar, instead of as categories in a dropdown-menu under Design-areas.
+- Fix: Partially fixed through trial-and-error (mostly errors) by comparisons with and copying of previously used nav-dropdowns and nested lists in the course-material, and with searches on nav-elements and lists in the Bootstrap-documentation. I finally simplified the whole nested list to the bare minimum, and started to work my way up. The nested list is now in order, but it does not collaps, so that will be part 3 of this bug.
+
+![Picture of nav-bar with nav-items not nested](assets/images/readme-images/nav-dropdown-doesnt-collapse.JPG)
+
+- Nav-dropdown part 3: After the fix part 2, the dropdown-menu is now situated under the Design-areas-nav-heading, but it does not collapse.
+- Fix: I went back through the bootstrap-documentation from Nav-dropdown-bug part 1 (https://getbootstrap.com/docs/5.0/components/navbar/), and after correcting some missing dropdown-classes and adding id to the top category, the nav-dropdown now is loaded in as it should be, with the top subject (Design-areas) on the nav-bar, and a dropdown-menu.
 
 ### Unfixed bugs:
-![Picture of nav-bar with nav-items not nested](assets/images/readme-images/problem-undercategories-dropdown-menu.JPG)
 
-- Bug 2: Each design-heading shows up separately in the nav-bar, instead of as categories in a dropdown-menu under Design-areas.
-- Fix:  
 
 ![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
 
