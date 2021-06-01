@@ -13,28 +13,56 @@ h3 {
 
 /*............ Colours ............*/
 
+.main-dark {
+    color: white;
+    background-color: rgb(34, 31, 27);
+}
+
 
 /*............ Paddings, margins etc ............*/
 
+.dropdown-subcategory {
+    padding: 0;
+}
+
+.site-footer {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 
 /*............ Navbar ............*/
-
-.navbar-dark {
-    background-color: rgb(34, 31, 27);
-}
 
 
 /*............ Front-page body ............*/
 
 .front-page-main {
+    height: 80vh;
     margin: 0;
-    padding: 100px 20px;
+    padding: 0;
+    border: 0;
     background-color: rgb(97, 67, 119);
 }
 
-.front-page-headline {
-    height: 20em;
+.front-page-headline-frame {
+    height: 40vh;
     vertical-align: center;
+    position: relative;
+    clear: both;
+    padding: 10vh 20px;
+}
+
+#front-page-headline {
+    margin: 20px;
+}
+
+.front-page-portfolio {
+    height: 40vh;
 }
 
 .design-areas {
@@ -48,22 +76,26 @@ h3 {
     background: green url('') top center / 200px 200px no-repeat;
     border: 2px solid black;
     vertical-align: center;
+    display: inline-block;
 }
 
 #front-page-interior {
     background: rgb(126, 96, 33) url('') top center / 200px 200px no-repeat;
     border: 2px solid black;
     vertical-align: center;
+    display: inline-block;
 }
 
 #front-page-product {
     background: rgb(133, 36, 153) url('') top center / 200px 200px no-repeat;
     border: 2px solid black;
     vertical-align: center;
+    display: inline-block;
 }
 
 #front-page-art {
     background: rgb(241, 178, 40) url('') top center / 200px 200px no-repeat;
     border: 2px solid black;
     vertical-align: center;
+    display: inline-block;
 }
