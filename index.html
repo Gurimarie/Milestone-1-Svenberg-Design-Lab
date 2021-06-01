@@ -88,7 +88,7 @@
         </div>
 
         <!-- 4 categories with pictures and links-->
-        <div class="front-page-portfolio">
+        <div class="front-page-portfolio d-flex justify-content-evenly">
 
             <div class="design-areas" id="front-page-fashion">
                 <h2>Fashion Design</h2>
@@ -109,36 +109,39 @@
 
     </div>
 
-    <footer class="container container-fluid site-footer main-dark">
-        <div class="col-sm-3 inline-block">
-            <p>Get in touch!</p>
-            <p><small>Use our <a href="contact.html">contact-form</a> or send an email to post@svenbergdesignlab.com</small></p>
+    <footer class="container container-fluid d-flex align-items-end site-footer main-dark">
+        <div class="d-sm-block d-lg-inline-block">
+            <div class="inline-block">
+                <p>Visit us on social media!</p>
+            </div>
+            <div class="inline-block">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- get in touch, must only be visible on large displays -->
+            <p class="d-none d-lg-block">Get in touch! <small>Use our <a href="contact.html">contact-form</a> or send an email to post@svenbergdesignlab.com</small></p>
         </div>
-        <div class="col-sm-3 inline-block">
-            <p>Visit us on social media!</p>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="">
-                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="">
-                        <i class="fab fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-3 inline-block">
-            <p>Copyright Svenberg Design Lab</p>
+
+        <div class="d-sm-block d-lg-inline-block ms-auto">
+            <p><small>Copyright Svenberg Design Lab</small></p>
         </div>
     </footer>
 

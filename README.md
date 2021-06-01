@@ -56,9 +56,14 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ## Technology used
 ### Programming languages:
+- html
+- css
+- Bootstrap (JavaScript?)
 
 ### Frameworks, libraries and programs:
-
+- Bootstrap
+- Google Fonts
+- Font-awsome
 
 ## Testing
 
@@ -89,11 +94,16 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 - Nav-dropdown part 4: The dropdown-box has white background, and the text is white (because of dark nav-bar), so the text is invisible.
 - Fix: Simply add class .dropdown-menu-dark to the ul that holds the dropdown-menu. I found the information here: https://getbootstrap.com/docs/5.0/components/dropdowns/#dark-dropdowns
 
+#### Alignment-issues
+![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
+ - Alignment-problem with inline-blocks on frontpage (the 4 design-areas).
+ - Fix: I gave the surrounding div-container the class of "d-flex", to use the bootstrap flex-box-classes to align and evenly distribute the inline-boxes. I found information about this on: https://getbootstrap.com/docs/5.0/utilities/flex/". It worked so well, so I also used it for the footer.
+
 ### Unfixed bugs:
 
+- The categories in the nav-dropdown do not collapse. Ideally the dropdown should open with only the 4 design-areas visible, and the sub-categories should only be visible after clicking the dropdown-toggle. There may be an additional difficulty with this because both the 4 areas and the sub-categories are links to other pages.
 
-![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
-
+- The inline-blocks on the frontpage (the 4 design-areas) align nicely now on larger displays with the d-flex-class on the parent-container, but they do not adjust well to smaller displays. More work required.
 
 ## Deployment
 
