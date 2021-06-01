@@ -37,7 +37,6 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ![Picture of sample Poppins and Open Sans](assets/images/readme-images/fonts-poppins-and-open-sans.JPG)
 
-
 ### Imagery:
 
 
@@ -72,6 +71,9 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 ### Fixed bugs:
 
 ### Unfixed bugs:
+![Picture of nav-bar with nav-items not nested](assets/images/readme-images/problem-undercategories-dropdown-menu.JPG)
+
+![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
 
 
 ## Deployment
