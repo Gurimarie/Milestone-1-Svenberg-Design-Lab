@@ -69,9 +69,17 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 ### Further testing:
 
 ### Fixed bugs:
+![Picture of nav-bar with nav-items not nested](assets/images/readme-images/problem-undercategories-dropdown-menu.JPG)
+
+- Bug 1: No drop-down-list under each design-heading in nav-bar.
+- Fix: Made correction from "data-toggle" to "data-bs-toggle" as an attribute of the <a>-element that is the parent of the nested list, and the sublists now function. Has been fixed with info from https://getbootstrap.com/docs/5.0/components/navbar/
+- Addition: The bootstrap-docs use <ul>-element and <li>-elements also in the nested lists (here under Fashion Design, Interior Design etc.) but it seems to work fine with <ul>-element and <li>-elements for the main nav-bar-list and just div (class dropdown-menu) + a (class dropdown-item) in the sublist. For now I keep fashion and interior with ul/li, and product and art with div/a, and I can see how they fare moving forward with the completerion of the nav-bar. 
 
 ### Unfixed bugs:
 ![Picture of nav-bar with nav-items not nested](assets/images/readme-images/problem-undercategories-dropdown-menu.JPG)
+
+- Bug 2: Each design-heading shows up separately in the nav-bar, instead of as categories in a dropdown-menu under Design-areas.
+- Fix:  
 
 ![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
 
