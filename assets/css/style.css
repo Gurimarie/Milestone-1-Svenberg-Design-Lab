@@ -6,13 +6,15 @@
     
     h1,
     h2,
-    h3 {
+    h3,
+    h4,
+    h5 {
         font-family: 'poppins', 'open sans', sans-serif;
     }
     /*............ Colours ............*/
     
     .main-bg-dark {
-        color: white;
+        color: rgb(228, 217, 204);
         background-color: rgb(31, 29, 26);
     }
     
@@ -22,7 +24,7 @@
     }
     
     .bg-transpagent {
-        background-color: rgba(rgba(218, 164, 164, 0.568));
+        background-color: rgba(228, 217, 204, 0.7);
     }
     /*............ Paddings, margins etc ............*/
     
@@ -55,6 +57,11 @@
         margin: 20px;
     }
     
+    .other-page-headline,
+    .other-page-second-headline {
+        padding-left: 8px;
+    }
+    
     .other-page-main {
         padding: 20px;
         height: fit-content;
@@ -62,15 +69,9 @@
         margin-bottom: 5vh;
     }
     
-    .other-page-headline,
-    .other-page-second-headline {
-        padding-left: 8px;
-    }
-    
     .site-footer {
         margin: 0;
         padding: 0 10px;
-        margin-top: -50px;
     }
     /*............ Navbar ............*/
     /*... help with sub-menus on nav dropdown-menu found on 
@@ -98,48 +99,51 @@ and then displaying them, when mouse hovering over parent category...*/
         clear: both;
         padding: 5vh 10px;
         border: 2px solid black;
-        margin: 10vh 0;
+        margin: 10vh 0 5vh;
     }
     
     .front-page-portfolio {
-        height: 40vh;
+        height: fit-content;
+        padding: 1vh 10px;
     }
     
     .design-areas {
         height: 200px;
         width: 180px;
-        padding: 50px 30px;
         border: 2px solid black;
-        vertical-align: center;
+        background-color: rgb(78, 65, 47);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 200px 200px;
+        padding: 0;
+        margin: 10px;
+    }
+    
+    .headline-on-image {
+        width: 100%;
+        vertical-align: end;
     }
     
     #front-page-fashion {
-        background-color: green;
         background-image: url('../images/fashion-images/denim1895/4\ anno\ 2\ Denim\ 9_2.jpg');
     }
     
     #front-page-interior {
-        background-color: rgb(126, 96, 33);
         background-image: url('../images/interior-images/KAV15/KAV15_01.jpg');
     }
     
     #front-page-product {
-        background-color: rgb(133, 36, 153);
         background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01.jpg');
     }
     
     #front-page-art {
-        background-color: rgb(241, 178, 40);
         background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.jpg');
     }
     /*............ Other-page body ............*/
     
     .other-page-headline-frame {
         border: 2px solid black;
-        margin-top: 10vh;
+        margin-top: 7vh;
         margin-bottom: 5vh;
     }
     /*............ Footer ............*/

@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm main-bg-dark">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md small-side-padding">
             <a href="index.html" class="navbar-brand">Svenberg Design Lab</a>
 
             <!--- Collapse nav to hamburger-icon for smaller devices -->
@@ -28,9 +28,9 @@
 
             <!-- Regular nav-bar -->
             <div class="collapse navbar-collapse justify-content-end dropdown-menu-end" id="navbar-navdropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <!-- Dropdown head-category -->
-                    <li class="nav-item dropdown" id="main-dropdown">
+                    <li class="nav-item dropdown mr-2" id="main-dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html" id="navbar-dropdown-menulink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Design-areas</a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbar-dropdown-menulink">
                             <!-- Dropdown sub-categories -->
@@ -76,10 +76,10 @@
     </header>
 
     <div class="container-fluid front-page-all main-bg-color">
-        <!-- Frame around everything? -->
+
+        <!-- Main headline-->
         <div class="row">
             <div class="col-10 offset-1">
-                <!-- Main headline-->
                 <section class="text-center front-page-headline-frame main-bg-dark">
                     <h1 id="front-page-headline">Svenberg Design Lab</h1>
                     <section class="callout">
@@ -90,25 +90,38 @@
         </div>
 
         <!-- 4 categories with pictures and links-->
-        <div class="front-page-portfolio row justify-content-evenly">
-            <!--- obs up until (and including) medium display the boxes must be displayed vertically 2 or 1-->
-            <div class="design-areas col-12 col-md-6 col-lg-3" id="front-page-fashion">
-                <h4>Fashion Design</h4>
+        <div class="front-page-portfolio row">
+            <div class="col-10 offset-1">
+                <div class="row justify-content-evenly">
+                    <!--- obs up until (and including) medium display the boxes must be displayed vertically 2 or 1-->
+                    <div class="col-12 col-md-6 col-lg-3 design-areas d-flex align-items-end" id="front-page-fashion">
+                        <section class="bg-transpagent headline-on-image text-center">
+                            <h5>Fashion Design</h5>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 design-areas d-flex align-items-end" id="front-page-interior">
+                        <section class="bg-transpagent headline-on-image text-center">
+                            <h5>Interior Design</h5>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 design-areas d-flex align-items-end" id="front-page-product">
+                        <section class="bg-transpagent headline-on-image text-center">
+                            <h5>Product Design</h5>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 design-areas d-flex align-items-end" id="front-page-art">
+                        <section class="bg-transpagent headline-on-image text-center">
+                            <h5>Art and 3D-design</h5>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div class="design-areas col-12 col-md-6 col-lg-3" id="front-page-interior">
-                <h4>Interior Design</h4>
-            </div>
-            <div class="design-areas col-12 col-md-6 col-lg-3" id="front-page-product">
-                <h4>Product Design</h4>
-            </div>
-            <div class="design-areas col-12 col-md-6 col-lg-3" id="front-page-art">
-                <h4>Art and 3D-design</h4>
-            </div>
+
         </div>
 
     </div>
 
-    <footer class="container container-fluid d-flex align-items-end site-footer main-bg-dark">
+    <footer class="container-fluid d-flex align-items-end main-bg-dark">
         <div class="d-sm-block d-lg-inline-block">
             <div class="inline-block">
                 <p>Visit us on social media!</p>
