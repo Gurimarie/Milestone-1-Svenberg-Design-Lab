@@ -1,150 +1,153 @@
-/*............ Fonts ............*/
-
-body {
-    font-family: 'open sans', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'poppins', 'open sans', sans-serif;
-}
-
-
-/*............ Colours ............*/
-
-.main-bg-dark {
-    color: white;
-    background-color: rgb(34, 31, 27);
-}
-
-.main-bg-color {
-    color: black;
-    background-color: rgb(161, 148, 131);
-}
-
-.bg-transpagent {
-    background-color: rgba(rgba(218, 164, 164, 0.568));
-}
-
-
-/*............ Paddings, margins etc ............*/
-
-.dropdown-subcategory {
-    padding: 0;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.front-page-all {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
-
-.front-page-main {
-    margin: 10em;
-    height: fit-content;
-    padding: 20px;
-    height: fit-content;
-    width: 100%;
-}
-
-.other-page-main {
-    margin: 10em;
-    height: fit-content;
-    padding: 20px;
-    height: fit-content;
-    width: 100%;
-}
-
-.site-footer {
-    margin: 0;
-}
-
-
-/*............ Navbar ............*/
-
-
-/*... help with sub-menus on nav dropdown-menu found on 
+    /*............ Fonts ............*/
+    
+    body {
+        font-family: 'open sans', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'poppins', 'open sans', sans-serif;
+    }
+    /*............ Colours ............*/
+    
+    .main-bg-dark {
+        color: white;
+        background-color: rgb(31, 29, 26);
+    }
+    
+    .main-bg-color {
+        color: black;
+        background-color: rgb(161, 148, 131);
+    }
+    
+    .bg-transpagent {
+        background-color: rgba(rgba(218, 164, 164, 0.568));
+    }
+    /*............ Paddings, margins etc ............*/
+    
+    .small-side-padding {
+        padding: 0 10px;
+    }
+    
+    .dropdown-subcategory {
+        padding: 0;
+    }
+    
+    .inline-block {
+        display: inline-block;
+    }
+    
+    .front-page-all {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+    
+    .front-page-main {
+        height: fit-content;
+        padding: 20px;
+        height: fit-content;
+    }
+    
+    #front-page-headline {
+        margin: 20px;
+    }
+    
+    .other-page-main {
+        padding: 20px;
+        height: fit-content;
+        border: 2px solid black;
+        margin-bottom: 5vh;
+    }
+    
+    .other-page-headline,
+    .other-page-second-headline {
+        padding-left: 8px;
+    }
+    
+    .site-footer {
+        margin: 0;
+        padding: 0 10px;
+        margin-top: -50px;
+    }
+    /*............ Navbar ............*/
+    /*... help with sub-menus on nav dropdown-menu found on 
 https://bootstrap-menu.com/detail-multilevel.html (by Google-search)
 This regards the next two CSS-rules, initially hiding the subcategories,
 and then displaying them, when mouse hovering over parent category...*/
-
-.sub-dropdown {
-    display: none;
-}
-
-.dropdown-menu>li:hover>.sub-dropdown {
-    display: block;
-    position: absolute;
-    left: 100%;
-    top: -7px;
-}
-
-
-/*............ Front-page body ............*/
-
-.front-page-headline-frame {
-    height: fit-content;
-    width: 100%;
-    vertical-align: center;
-    position: relative;
-    clear: both;
-    padding: 5vh 10px;
-    border: 2px solid black;
-    margin: 10vh 40px;
-}
-
-#front-page-headline {
-    margin: 20px;
-}
-
-.front-page-portfolio {
-    height: 40vh;
-}
-
-.design-areas {
-    height: 200px;
-    width: 180px;
-    padding: 50px 30px;
-    border: 2px solid black;
-    vertical-align: center;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 200px 200px;
-}
-
-#front-page-fashion {
-    background-color: green;
-    background-image: url('../images/fashion-images/denim1895/4\ anno\ 2\ Denim\ 9_2.jpg');
-}
-
-#front-page-interior {
-    background-color: rgb(126, 96, 33);
-    background-image: url('../images/interior-images/KAV15/KAV15_01.jpg');
-}
-
-#front-page-product {
-    background-color: rgb(133, 36, 153);
-    background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01.jpg');
-}
-
-#front-page-art {
-    background-color: rgb(241, 178, 40);
-    background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.jpg');
-}
-
-
-/*............ Footer ............*/
-
-footer div p {
-    margin: 2px 5px;
-}
-
-footer .social-links {
-    margin: 2px 5px;
-}
+    
+    .sub-dropdown {
+        display: none;
+    }
+    
+    .dropdown-menu>li:hover>.sub-dropdown {
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+    /*............ Front-page body ............*/
+    
+    .front-page-headline-frame {
+        height: fit-content;
+        width: 100%;
+        vertical-align: center;
+        position: relative;
+        clear: both;
+        padding: 5vh 10px;
+        border: 2px solid black;
+        margin: 10vh 0;
+    }
+    
+    .front-page-portfolio {
+        height: 40vh;
+    }
+    
+    .design-areas {
+        height: 200px;
+        width: 180px;
+        padding: 50px 30px;
+        border: 2px solid black;
+        vertical-align: center;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 200px 200px;
+    }
+    
+    #front-page-fashion {
+        background-color: green;
+        background-image: url('../images/fashion-images/denim1895/4\ anno\ 2\ Denim\ 9_2.jpg');
+    }
+    
+    #front-page-interior {
+        background-color: rgb(126, 96, 33);
+        background-image: url('../images/interior-images/KAV15/KAV15_01.jpg');
+    }
+    
+    #front-page-product {
+        background-color: rgb(133, 36, 153);
+        background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01.jpg');
+    }
+    
+    #front-page-art {
+        background-color: rgb(241, 178, 40);
+        background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.jpg');
+    }
+    /*............ Other-page body ............*/
+    
+    .other-page-headline-frame {
+        border: 2px solid black;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    /*............ Footer ............*/
+    
+    footer div p {
+        margin: 2px 5px;
+    }
+    
+    footer .social-links {
+        margin: 2px 5px;
+    }
