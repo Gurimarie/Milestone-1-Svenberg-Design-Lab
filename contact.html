@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm main-bg-dark small-side-padding">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md small-side-padding">
             <a href="index.html" class="navbar-brand">Svenberg Design Lab</a>
 
             <!--- Collapse nav to hamburger-icon for smaller devices -->
@@ -28,9 +28,9 @@
 
             <!-- Regular nav-bar -->
             <div class="collapse navbar-collapse justify-content-end dropdown-menu-end" id="navbar-navdropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <!-- Dropdown head-category -->
-                    <li class="nav-item dropdown" id="main-dropdown">
+                    <li class="nav-item dropdown mr-2" id="main-dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html" id="navbar-dropdown-menulink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Design-areas</a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbar-dropdown-menulink">
                             <!-- Dropdown sub-categories -->
@@ -67,9 +67,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mr-2"><a href="index.html" class="nav-link active" aria-current="true">Home</a></li>
                     <li class="nav-item mr-2"><a href="about-us.html" class="nav-link">About Us</a></li>
-                    <li class="nav-item mr-2"><a href="contact.html" class="nav-link active" aria-current="true">Contact</a></li>
+                    <li class="nav-item mr-2"><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -88,6 +88,48 @@
         <div class="row">
             <div class="col-10 offset-1 other-page-main">
                 <section>
+                    <!--- Form from https://getbootstrap.com/docs/5.0/forms/overview/ and 
+                        https://getbootstrap.com/docs/5.0/forms/form-control/-->
+                    <form>
+                        <div class="mb-3">
+                            <label for="input-name" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="input-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="input-email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="input-email" aria-describedby="email-help">
+                            <div id="email-help" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <!-- check-boxes -->
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="fashion-design">
+                            <label class="form-check-label" for="fashion-design">Fashion Design</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="interior-design">
+                            <label class="form-check-label" for="interior-design">Interior Design</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="product-design">
+                            <label class="form-check-label" for="product-design">Product Design</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="art-design">
+                            <label class="form-check-label" for="art-design">Art and/or 3D-design</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="other">
+                            <label class="form-check-label" for="other">Other</label>
+                        </div>
+
+                        <!--- textinput -->
+                        <div class="mb-3">
+                            <label for="potential-client-project" class="form-label">Tell us about your project! Why do you want to get in touch?</label>
+                            <textarea class="form-control" id="potential-client-project" rows="3"></textarea>
+                        </div>
+                        <!--- Submit-button -->
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
 
                 </section>
             </div>
@@ -95,8 +137,7 @@
     </div>
 
 
-
-    <footer class="container-fluid d-flex align-items-end main-bg-dark">
+    <footer class="container-fluid d-flex align-items-end main-bg-dark site-footer">
         <div class="d-sm-block d-lg-inline-block">
             <div class="inline-block">
                 <p>Visit us on social media!</p>
