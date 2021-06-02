@@ -13,9 +13,18 @@ h3 {
 
 /*............ Colours ............*/
 
-.main-dark {
+.main-bg-dark {
     color: white;
     background-color: rgb(34, 31, 27);
+}
+
+.main-bg-color {
+    color: black;
+    background-color: rgb(161, 148, 131);
+}
+
+.bg-transpagent {
+    background-color: rgba(rgba(218, 164, 164, 0.568));
 }
 
 
@@ -27,6 +36,29 @@ h3 {
 
 .inline-block {
     display: inline-block;
+}
+
+.front-page-all {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.front-page-main {
+    margin: 10em;
+    height: fit-content;
+    padding: 20px;
+    height: fit-content;
+    width: 100%;
+}
+
+.other-page-main {
+    margin: 10em;
+    height: fit-content;
+    padding: 20px;
+    height: fit-content;
+    width: 100%;
 }
 
 .site-footer {
@@ -56,20 +88,15 @@ and then displaying them, when mouse hovering over parent category...*/
 
 /*............ Front-page body ............*/
 
-.front-page-main {
-    height: 80vh;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: rgb(97, 67, 119);
-}
-
 .front-page-headline-frame {
-    height: 40vh;
+    height: fit-content;
+    width: 100%;
     vertical-align: center;
     position: relative;
     clear: both;
-    padding: 10vh 20px;
+    padding: 5vh 10px;
+    border: 2px solid black;
+    margin: 10vh 40px;
 }
 
 #front-page-headline {
@@ -81,38 +108,34 @@ and then displaying them, when mouse hovering over parent category...*/
 }
 
 .design-areas {
-    display: inline-block;
     height: 200px;
     width: 180px;
     padding: 50px 30px;
+    border: 2px solid black;
+    vertical-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 200px 200px;
 }
 
 #front-page-fashion {
-    background: green url('') top center / 200px 200px no-repeat;
-    border: 2px solid black;
-    vertical-align: center;
-    display: inline-block;
+    background-color: green;
+    background-image: url('../images/fashion-images/denim1895/4\ anno\ 2\ Denim\ 9_2.jpg');
 }
 
 #front-page-interior {
-    background: rgb(126, 96, 33) url('') top center / 200px 200px no-repeat;
-    border: 2px solid black;
-    vertical-align: center;
-    display: inline-block;
+    background-color: rgb(126, 96, 33);
+    background-image: url('../images/interior-images/KAV15/KAV15_01.jpg');
 }
 
 #front-page-product {
-    background: rgb(133, 36, 153) url('') top center / 200px 200px no-repeat;
-    border: 2px solid black;
-    vertical-align: center;
-    display: inline-block;
+    background-color: rgb(133, 36, 153);
+    background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01.jpg');
 }
 
 #front-page-art {
-    background: rgb(241, 178, 40) url('') top center / 200px 200px no-repeat;
-    border: 2px solid black;
-    vertical-align: center;
-    display: inline-block;
+    background-color: rgb(241, 178, 40);
+    background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.jpg');
 }
 
 

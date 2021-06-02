@@ -103,6 +103,10 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
  - Alignment-problem with inline-blocks on frontpage (the 4 design-areas).
  - Fix: I gave the surrounding div-container the class of "d-flex", to use the bootstrap flex-box-classes to align and evenly distribute the inline-boxes. I found information about this on: https://getbootstrap.com/docs/5.0/utilities/flex/". It worked so well, so I also used it for the footer.
 
+ ![Picture of white space on the right side of web-page](assets/images/readme-images/white-space-on-right-side.JPG)
+ - Problem with white space (the div's not streaching over the full viewport-area). 
+ - Fix: I previously had div-elements with container-fluid-class and thought that should stretch the whole way, but looking at the "Whiskey-drop"-project I saw row and col-12 used for that purpose, so with a little bit of experimenting, I found the right combination. 
+
 ### Unfixed bugs:
 
 
