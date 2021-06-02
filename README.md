@@ -94,6 +94,10 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 - Nav-dropdown part 4: The dropdown-box has white background, and the text is white (because of dark nav-bar), so the text is invisible.
 - Fix: Simply add class .dropdown-menu-dark to the ul that holds the dropdown-menu. I found the information here: https://getbootstrap.com/docs/5.0/components/dropdowns/#dark-dropdowns
 
+- Nav-dropdown part 5: The categories in the nav-dropdown do not collapse. Ideally the dropdown should open with only the 4 design-areas visible, and the sub-categories should only be visible after clicking the dropdown-toggle. 
+- Fix: Finally solved mainly with two css-rules with help from https://bootstrap-menu.com/detail-multilevel.html! Hiding the subcategories until the mouse hovers over the parent-category, and then displaying them on the side, so as to not cover or hide other the parent-list. The ul-elements of the sub-lists also needed the addition of the attribute aria-labelled-by the id of their parent-category and all the classes that the ul-elements of the main-list had, pluss an additional class sub-dropdown, that is used to aim the css-rules.
+![Picture of nav-dropdown with sub-categories on the sade while hovering over parent](assets/images/readme-images/nav-dropdown-fixed.JPG)
+
 #### Alignment-issues
 ![Picture of inline-boxes not in alignment](assets/images/readme-images/alignment-problem-inline-boxes.JPG)
  - Alignment-problem with inline-blocks on frontpage (the 4 design-areas).
@@ -101,7 +105,9 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ### Unfixed bugs:
 
-- The categories in the nav-dropdown do not collapse. Ideally the dropdown should open with only the 4 design-areas visible, and the sub-categories should only be visible after clicking the dropdown-toggle. There may be an additional difficulty with this because both the 4 areas and the sub-categories are links to other pages.
+
+
+- There is still a question regarding the categories in the nav-dropdown, regarding the fact that both the 4 main-categories and the sub-categories are links to other pages. As the other pages are not yet 
 
 - The inline-blocks on the frontpage (the 4 design-areas) align nicely now on larger displays with the d-flex-class on the parent-container, but they do not adjust well to smaller displays. More work required.
 
