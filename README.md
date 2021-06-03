@@ -46,6 +46,16 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ## Features
 
+- Need "Sorry, page not working, click here to go back" for when form on contact-page is submitted, and the action-page does not exist.
+- Need "I'm working on it" for when form on contact-page is submitted
+- Need perhaps also "I'm working on it" for when a nav-button is clicked?
+- Click "out of" nav-hamburger without selecting anything (now it stays open until you select a link)
+- Add actial links to social-media-links
+- Add a video- or audio-file somewhere (required)
+- Fix images, good quality, but as small and easy-loadable as possible
+
+
+
 
 #### Future features:
 - Feedback from previous customers
@@ -107,8 +117,16 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
  - Problem with white space (the div's not streaching over the full viewport-area). 
  - Fix: I previously had div-elements with container-fluid-class and thought that should stretch the whole way, but looking at the "Whiskey-drop"-project I saw row and col-12 used for that purpose, so with a little bit of experimenting, I found the right combination. 
 
+
+
+
 ### Unfixed bugs:
 
+- Nav-dropdown part 5: The Nav-drop-down is again not working. Not dropping down at all. Need to go through old commits, and see when it last worked, and what has been changed afterwards.
+
+ - Problem: The footer is migrating up on the page when there is not enough content to push it down.
+ - Fix: adding a margin-top of -50px and ............? Need more work...
+ I found the info here: https://css-tricks.com/couple-takes-sticky-footer/
 
 
 - There is still a question regarding the categories in the nav-dropdown, regarding the fact that both the 4 main-categories and the sub-categories are links to other pages. As the other pages are not yet 
