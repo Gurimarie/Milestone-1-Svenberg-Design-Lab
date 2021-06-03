@@ -50,7 +50,6 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 - Need "I'm working on it" for when form on contact-page is submitted
 - Need perhaps also "I'm working on it" for when a nav-button is clicked?
 - Click "out of" nav-hamburger without selecting anything (now it stays open until you select a link)
-- Add actial links to social-media-links
 - Add a video- or audio-file somewhere (required)
 - Fix images, good quality, but as small and easy-loadable as possible
 
