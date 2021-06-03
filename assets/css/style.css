@@ -32,11 +32,11 @@
         padding: 0 10px;
     }
     
-    .dropdown-subcategory {
-        padding: 0;
+    .inline-block {
+        display: inline-block;
     }
     
-    .inline-block {
+    .inline-block p {
         display: inline-block;
     }
     
@@ -77,7 +77,7 @@
     /*... help with sub-menus on nav dropdown-menu found on 
 https://bootstrap-menu.com/detail-multilevel.html (by Google-search)
 This regards the next two CSS-rules, initially hiding the subcategories,
-and then displaying them, when mouse hovering over parent category...*/
+and then displaying them, when mouse hovering over parent category ...*/
     
     .sub-dropdown {
         display: none;
@@ -89,6 +89,8 @@ and then displaying them, when mouse hovering over parent category...*/
         left: 100%;
         top: -7px;
     }
+    
+    .dropdown-subcategory {}
     /*............ Front-page body ............*/
     
     .front-page-headline-frame {
@@ -145,6 +147,13 @@ and then displaying them, when mouse hovering over parent category...*/
         border: 2px solid black;
         margin-top: 7vh;
         margin-bottom: 5vh;
+    }
+    
+    .about-image-portrait {
+        max-height: 50%;
+        max-width: 25%;
+        border: 2px solid black;
+        display: inline-block;
     }
     /*............ Footer ............*/
     
