@@ -116,7 +116,8 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
  - Problem with white space (the div's not streaching over the full viewport-area). 
  - Fix: I previously had div-elements with container-fluid-class and thought that should stretch the whole way, but looking at the "Whiskey-drop"-project I saw row and col-12 used for that purpose, so with a little bit of experimenting, I found the right combination. 
 
-
+#### Problem with links to bootstrap (Jquery)
+- I could not find the right link on getbootstrap.com -Documents, so I ended up copying the link from our school-project "Whiskey drop". It may be an older version, but the Chrome developer-tool (inspect) gives its "OK" (status 200).
 
 
 ### Unfixed bugs:
