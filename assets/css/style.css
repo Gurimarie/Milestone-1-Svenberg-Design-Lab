@@ -91,6 +91,13 @@ and then displaying them, when mouse hovering over parent category ...*/
     .dropdown-subcategory {}
     /*............ Front-page body ............*/
     
+    .front-page-background {
+        background-image: url(../images/other-images/bg-old-wall.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(161, 148, 131);
+    }
+    
     .front-page-headline-frame {
         height: fit-content;
         width: 100%;
@@ -129,15 +136,15 @@ and then displaying them, when mouse hovering over parent category ...*/
     }
     
     #front-page-interior {
-        background-image: url('../images/interior-images/KAV15/KAV15_01.jpg');
+        background-image: url('../images/interior-images/KAV15/KAV15_01focused2.png');
     }
     
     #front-page-product {
-        background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01.jpg');
+        background-image: url('../images/product-images/Beam-lamp_01/Beam-lamp_01_01focused2.png');
     }
     
     #front-page-art {
-        background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.jpg');
+        background-image: url('../images/art-images/Human-rights-T-shirt/Human-Right-T-shirt1.1.png');
     }
     /*............ Other-page body ............*/
     
