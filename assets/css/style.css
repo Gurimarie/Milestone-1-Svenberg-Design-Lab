@@ -63,7 +63,7 @@
     .other-page-main {
         padding: 20px;
         height: fit-content;
-        border: 2px solid black;
+        border: 2px solid rgb(31, 29, 26);
         margin-bottom: 5vh;
     }
     
@@ -105,7 +105,7 @@ and then displaying them, when mouse hovering over parent category ...*/
         position: relative;
         clear: both;
         padding: 5vh 10px;
-        border: 2px solid black;
+        border: 2px solid rgb(31, 29, 26);
         margin: 10vh 0 5vh;
     }
     
@@ -117,7 +117,7 @@ and then displaying them, when mouse hovering over parent category ...*/
     .design-areas {
         height: 200px;
         width: 180px;
-        border: 2px solid black;
+        border: 2px solid rgb(31, 29, 26);
         background-color: rgb(78, 65, 47);
         background-repeat: no-repeat;
         background-position: top center;
@@ -128,7 +128,6 @@ and then displaying them, when mouse hovering over parent category ...*/
     
     .headline-on-image {
         width: 100%;
-        vertical-align: end;
     }
     
     #front-page-fashion {
@@ -149,7 +148,7 @@ and then displaying them, when mouse hovering over parent category ...*/
     /*............ Other-page body ............*/
     
     .other-page-headline-frame {
-        border: 2px solid black;
+        border: 2px solid rgb(31, 29, 26);
         margin-top: 7vh;
         margin-bottom: 5vh;
     }
@@ -157,8 +156,21 @@ and then displaying them, when mouse hovering over parent category ...*/
     .about-image-portrait {
         max-height: 50%;
         max-width: 50%;
-        border: 2px solid black;
+        border: 2px solid rgb(31, 29, 26);
         display: inline-block;
+    }
+    /*............ Portfolio-pages ............*/
+    
+    .portfolio-heading {
+        padding: 20px 0;
+    }
+    
+    .portfolio-main-area {
+        padding: 5px;
+    }
+    
+    .portfolio-card {
+        border-color: rgb(31, 29, 26);
     }
     /*............ Footer ............*/
     
