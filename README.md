@@ -41,6 +41,12 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 
 ## Wireframes
+![Picture of wireframe front-page](assets/images/readme-images/Wireframe-frontpage.JPG)
+![Picture of wireframe About Us-page](assets/images/readme-images/Wireframe-aboutus.JPG)
+![Picture of wireframe contact-page](assets/images/readme-images/Wireframe-contact.JPG)
+![Picture of wireframe fashion-page](assets/images/readme-images/Wireframe-fashion.JPG)
+
+
 
 
 
@@ -132,6 +138,8 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 - There is still a question regarding the categories in the nav-dropdown, regarding the fact that both the 4 main-categories and the sub-categories are links to other pages. As the other pages are not yet 
 
 - The inline-blocks on the frontpage (the 4 design-areas) align nicely now on larger displays with the d-flex-class on the parent-container, but they do not adjust well to smaller displays. More work required.
+
+- Spinner on sendbutton on Contact-page spins as soon as it's hovered. Should be an indication that it is working (after customer has clicked the button)
 
 ## Deployment
 
