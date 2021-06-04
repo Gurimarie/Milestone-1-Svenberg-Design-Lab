@@ -35,7 +35,7 @@
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbar-dropdown-menulink">
                             <!-- Dropdown sub-categories -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="fashion.html" id="navbar-dropdown-menulink-fashion" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fashion Design</a>
+                                <a class="nav-link dropdown-toggle active" aria-current="true" href="fashion/fashion.html" id="navbar-dropdown-menulink-fashion" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fashion Design</a>
                                 <ul class="dropdown-menu dropdown-menu-dark sub-dropdown" aria-labelledby="navbar-dropdown-menulink-fashion">
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">Il Camaleonte</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">Denim 1895</a></li>
@@ -43,7 +43,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="interior.html" id="navbar-dropdown-menulink-interior" role="button" data-bs-toggle="dropdown" aria-expanded="false">Interior Design</a>
+                                <a class="nav-link dropdown-toggle" href="interior/interior.html" id="navbar-dropdown-menulink-interior" role="button" data-bs-toggle="dropdown" aria-expanded="false">Interior Design</a>
                                 <ul class="dropdown-menu dropdown-menu-dark sub-dropdown" aria-labelledby="navbar-dropdown-menulink-interior">
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">KAV15</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">MV235</a></li>
@@ -51,7 +51,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="product.html" id="navbar-dropdown-menulink-product" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product Design</a>
+                                <a class="nav-link dropdown-toggle" href="product/product.html" id="navbar-dropdown-menulink-product" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product Design</a>
                                 <ul class="dropdown-menu dropdown-menu-dark sub-dropdown" aria-labelledby="navbar-dropdown-menulink-product">
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">Lamp Beam-01</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">Chair Paal-01</a></li>
@@ -59,7 +59,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="art.html" id="navbar-dropdown-menulink-art" role="button" data-bs-toggle="dropdown" aria-expanded="false">Art and 3D-Design</a>
+                                <a class="nav-link dropdown-toggle" href="art-and-3d/art.html" id="navbar-dropdown-menulink-art" role="button" data-bs-toggle="dropdown" aria-expanded="false">Art and 3D-Design</a>
                                 <ul class="dropdown-menu dropdown-menu-dark sub-dropdown" aria-labelledby="navbar-dropdown-menulink-art">
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">L'abita che non esiste</a></li>
                                     <li class="nav-item"><a href="#" class="nav-link dropdown-subcategory">Human Rights T-shirt</a></li>
@@ -67,7 +67,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item mr-2"><a href="index.html" class="nav-link active" aria-current="true">Home</a></li>
+                    <li class="nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item mr-2"><a href="about-us.html" class="nav-link">About Us</a></li>
                     <li class="nav-item mr-2"><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
@@ -75,52 +75,73 @@
         </nav>
     </header>
 
-
-    <div class="container-fluid front-page-all front-page-background">
-
-        <!-- Main headline-->
+    <div class="container-fluid front-page-all main-bg-color">
         <div class="row">
-            <div class="col-10 offset-1">
-                <section class="text-center front-page-headline-frame main-bg-dark">
-                    <h1 id="front-page-headline">Svenberg Design Lab</h1>
-                    <section class="callout">
-                        <p>Your one-stop-destination for everything design-related!</p>
-                    </section>
-                </section>
+            <div class="col-10 offset-1 other-page-headline-frame main-bg-dark">
+                <h1 class="other-page-headline">Svenberg Design Lab</h1>
+                <h3 class="other-page-second-headline">Fashion Design</h3>
             </div>
         </div>
 
-        <!-- 4 categories with pictures and links-->
-        <div class="front-page-portfolio row">
-            <div class="col-10 offset-1">
-                <div class="row justify-content-evenly">
-                    <!--- obs up until (and including) medium display the boxes must be displayed vertically 2 or 1-->
-                    <div class="design-areas d-flex align-items-end" id="front-page-fashion">
-                        <section class="bg-transpagent headline-on-image text-center">
-                            <h5>Fashion Design</h5>
-                        </section>
+
+        <!-- Page content -->
+        <div class="row">
+            <div class="col-10 offset-1 other-page-main">
+                <div class="portfolio-main-area text-center">
+                    <h4 class="portfolio-heading">Portfolio</h4>
+                    <!---- Cards-template found at https://getbootstrap.com/docs/5.0/components/card/ -->
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/camaleonte/01-cam-F1-M1.png" class="card-img-top" alt="Picture of style F1 and M1 in Il Camaleonte-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Il Camaleonte</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
                     </div>
-                    <div class="design-areas d-flex align-items-end" id="front-page-interior">
-                        <section class="bg-transpagent headline-on-image text-center">
-                            <h5>Interior Design</h5>
-                        </section>
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/denim1895/05-denim.png" class="card-img-top" alt="Picture of style F1, F2 and F3 in the Denim 1895-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Denim 1895</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
                     </div>
-                    <div class="design-areas d-flex align-items-end" id="front-page-product">
-                        <section class="bg-transpagent headline-on-image text-center">
-                            <h5>Product Design</h5>
-                        </section>
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/camaleonte/01-cam-F1-M1.png" class="card-img-top" alt="Picture of style F1 and M1 in Il Camaleonte-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Il Camaleonte</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
                     </div>
-                    <div class="design-areas d-flex align-items-end" id="front-page-art">
-                        <section class="bg-transpagent headline-on-image text-center">
-                            <h5>Art and 3D-design</h5>
-                        </section>
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/denim1895/05-denim.png" class="card-img-top" alt="Picture of style F1, F2 and F3 in the Denim 1895-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Denim 1895</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
                     </div>
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/camaleonte/01-cam-F1-M1.png" class="card-img-top" alt="Picture of style F1 and M1 in Il Camaleonte-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Il Camaleonte</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
+                    </div>
+                    <div class="card d-inline-block portfolio-card" style="width: 18rem;">
+                        <img src="assets/images/fashion-images/denim1895/05-denim.png" class="card-img-top" alt="Picture of style F1, F2 and F3 in the Denim 1895-collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Denim 1895</h5>
+                            <a href="#" class="btn btn-primary">Go to full collection</a>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
-
         </div>
-
     </div>
+
+
+
 
     <footer class="container-fluid d-flex align-items-end main-bg-dark">
         <div class="d-sm-block d-lg-inline-block">
@@ -157,6 +178,8 @@
             <p><small>Copyright Svenberg Design Lab</small></p>
         </div>
     </footer>
+
+
 
 
 

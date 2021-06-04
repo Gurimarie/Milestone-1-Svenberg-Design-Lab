@@ -187,6 +187,7 @@ and then displaying them, when mouse hovering over parent category ...*/
     
     .portfolio-card {
         border-color: rgb(31, 29, 26);
+        margin: 10px 5px;
     }
     /*............ Footer ............*/
     
