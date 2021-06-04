@@ -26,6 +26,17 @@
     .bg-transpagent {
         background-color: rgba(228, 217, 204, 0.7);
     }
+    
+    nav,
+    .navbar,
+    .navbar-dark,
+    .bg-dark,
+    .nav-item,
+    .dropdown-menu-dark,
+    .sub-dropdown {
+        color: rgb(228, 217, 204);
+        background-color: rgb(31, 29, 26);
+    }
     /*............ Paddings, margins etc ............*/
     
     .small-side-padding {
@@ -72,6 +83,11 @@
         padding: 0 10px;
     }
     /*............ Navbar ............*/
+    
+    .navbar,
+    .navbar-toggler {
+        border: 0;
+    }
     /*... help with sub-menus on nav dropdown-menu found on 
 https://bootstrap-menu.com/detail-multilevel.html (by Google-search)
 This regards the next two CSS-rules, initially hiding the subcategories,
