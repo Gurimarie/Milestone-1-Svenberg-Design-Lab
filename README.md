@@ -104,6 +104,7 @@ The Fashion-design-portfolio-page, will show a representativ photo from each col
 - Pages dedicated to each portfolio-collection/project in all categories.
 - Fix images, good quality, but as small and easy-loadable as possible
 - The contact-form is well fitted to smaller devices, but on large monitors there is no need for the input-fields to stretch across the whole page... The project has initially been mobile-first-oriented (as it should). Going forward, I would like to develop and beautify the layout on larger monitors, espesially for contact.html and about-us.html.   
+- Make the cards
 
 
 

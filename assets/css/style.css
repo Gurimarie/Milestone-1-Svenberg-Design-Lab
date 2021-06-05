@@ -37,6 +37,11 @@
         color: rgb(228, 217, 204);
         background-color: rgb(31, 29, 26);
     }
+    
+    .portfolio-card {
+        color: rgb(228, 217, 204);
+        background-color: rgb(31, 29, 26);
+    }
     /*............ Paddings, margins etc ............*/
     
     .small-side-padding {
