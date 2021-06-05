@@ -103,8 +103,6 @@ and then displaying them, when mouse hovering over parent category ...*/
         left: 100%;
         top: -7px;
     }
-    
-    .dropdown-subcategory {}
     /*............ Front-page body ............*/
     
     .front-page-background {
@@ -151,8 +149,12 @@ and then displaying them, when mouse hovering over parent category ...*/
         text-decoration: none;
     }
     
-    .all-clickable> {
+    .all-clickable h5 {
         color: rgb(31, 29, 26);
+    }
+    
+    .all-clickable h5:hover {
+        font-weight: bold;
     }
     
     #front-page-fashion {
