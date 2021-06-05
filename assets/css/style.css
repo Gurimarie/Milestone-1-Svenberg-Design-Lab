@@ -70,12 +70,17 @@
     .other-page-headline,
     .other-page-second-headline {
         padding-left: 8px;
+        padding-top: 8px;
     }
     
     .other-page-main {
         padding: 20px;
         height: fit-content;
         border: 2px solid rgb(31, 29, 26);
+        margin-bottom: 5vh;
+    }
+    
+    .contact-form {
         margin-bottom: 5vh;
     }
     
@@ -134,7 +139,8 @@ and then displaying them, when mouse hovering over parent category ...*/
     
     .front-page-portfolio {
         height: fit-content;
-        padding: 1vh 10px;
+        padding: 2vh 10px;
+        margin-top: 20px;
     }
     
     .design-areas {
@@ -189,7 +195,7 @@ and then displaying them, when mouse hovering over parent category ...*/
         margin-bottom: 5vh;
     }
     
-    .about-image-portrait {
+    .other-page-main .about-image-portrait {
         max-height: 50%;
         max-width: 50%;
         border: 2px solid rgb(31, 29, 26);
