@@ -64,6 +64,7 @@
     
     #front-page-headline {
         margin: 20px;
+        font-size: 3rem;
     }
     
     .other-page-headline,
@@ -76,6 +77,14 @@
         height: fit-content;
         border: 2px solid rgb(31, 29, 26);
         margin-bottom: 5vh;
+    }
+    
+    .sorry-title {
+        margin: 3rem 0;
+    }
+    
+    .sorry-text {
+        margin: 0;
     }
     
     .site-footer {
@@ -129,13 +138,13 @@ and then displaying them, when mouse hovering over parent category ...*/
     }
     
     .design-areas {
-        height: 200px;
-        width: 180px;
+        height: 300px;
+        width: 240px;
         border: 2px solid rgb(31, 29, 26);
         background-color: rgb(78, 65, 47);
         background-repeat: no-repeat;
-        background-position: top center;
-        background-size: 200px 200px;
+        background-position: center;
+        background-size: cover;
         padding: 0;
         margin: 10px;
     }
@@ -185,6 +194,15 @@ and then displaying them, when mouse hovering over parent category ...*/
         max-width: 50%;
         border: 2px solid rgb(31, 29, 26);
         display: inline-block;
+    }
+    
+    .sorry-image {
+        max-height: 30%;
+        max-width: 55%;
+        border: 2px solid rgb(31, 29, 26);
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0;
     }
     /*............ Portfolio-pages ............*/
     
