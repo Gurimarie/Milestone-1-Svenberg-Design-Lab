@@ -3,7 +3,7 @@
 This website has been designed to showcase the work of Svenberg Design Lab, and to be a place for prospective customers and collabortors to explore the previous work of the company.
 The target audience consists of two groups; the private customer who has a design-wish to be fulfulled, and the professional customer looking for a design-company for collaboration.
 
-![Picture of different view-port-displays]()
+![Picture of different view-port-displays](assets/images/readme-images/snapshot-different-devices.png)
 
 Click here to view the website
 
@@ -28,8 +28,16 @@ Another important reason behind the site is simply to collect and showcase previ
 
 ### Colour scheme:
 
+![Picture of dark, brown-black colour](assets/images/readme-images/Colour-palettem.png)
+
+The colour-palett has been chosen to reflect the general ...............
+Both as a good back-drop to showcase the previous projects of the company, but also to set the potential customer in the right mood and right away give them a feel for whether Svenberg Design Lab is the right company for them.
+The colours are a mix between the traditional and the more modern, whith a heavy emphasis on the "cold neutral beiges and a dark brown, that is almost black. 
+(Colour-scheme made in Word)
+<br>
+<br>
 ### Typography:
-Font Poppins for headlines and Open Sans for other text.  
+Font Poppins for headlines (h1-h5) and Open Sans for other text.  
 <br>
 Poppins is a straight-forward, easily-approachable font, that is both elegant and simple, and that has rounded shapes that makes it feel trustworthy. We want a font that is elegant, but not old-fashioned, and not too avant-guard. Poppins is just the right mix.  
 <br>
@@ -39,34 +47,71 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ### Imagery:
 
+At the time of deployment, all the images on this website are property of Svenberg Design Lab. 
+
 
 ## Wireframes
-![Picture of wireframe front-page](assets/images/readme-images/Wireframe-frontpage.JPG)
-![Picture of wireframe About Us-page](assets/images/readme-images/Wireframe-aboutus.JPG)
-![Picture of wireframe contact-page](assets/images/readme-images/Wireframe-contact.JPG)
-![Picture of wireframe fashion-page](assets/images/readme-images/Wireframe-fashion.JPG)
 
+Home:
+![Picture of wireframe front-page](assets/images/readme-images/W-frontpage.JPG)
 
+Navbar with dropdown:
+![Picture of wireframe fashion-page](assets/images/readme-images/Wireframe-nav-dropdown2.JPG)
+
+About Us:
+![Picture of wireframe About Us-page](assets/images/readme-images/W-about.JPG)
+
+Contact:
+![Picture of wireframe contact-page](assets/images/readme-images/W-contact.JPG)
+
+Fashion portfolio:
+![Picture of wireframe fashion-page](assets/images/readme-images/W-fashion.JPG)
 
 
 
 ## Features
 
+### Home:
+Responsive navigation with nested dropdowns.
+Link back to home from all pages using the "logo"
+A sample-picture of each of the three design-categories the company is engaged in. The text on each category-image has a link to the portfolio-page for that category. Currently only the Fashion-portfolio-page has been made, so the html for Fashion-portfolio has been kopied to the other pages. The headlines are different, but all the projects are copies of the same two fashion-projects. Re-sizing and organizing those immages is outside the scope of this project.
+The page concludes with a footer-element, with links to social media (only main-page, not company-specific), a link to the contact-page (for devices over size "large and above" (specifically dimensions ≥992px).
 
-- Need "I'm working on it" for when form on contact-page is submitted
-- Add a video- or audio-file somewhere (required) or pop-up!!
-- Fix images, good quality, but as small and easy-loadable as possible
+### Navbar:
+
+
+
+### About Us:
 
 
 
 
-#### Future features:
+### Contact Us:
+Form to submit a collaboration- or customer-request.
+Had a spinner, but the html-validater did not approve.
+Opens tu a new page, with sorry, this page has not been made yet.
+
+### Fashion portfolio:
+The Fashion-design-portfolio-page, will show a representativ photo from each collection/project, and will contain a link to the page that holds the complete collection. The portfolio-page will thereby be a place to get a quick glance at all the projects, and decide on which ones to go into in more detail.
+
+
+
+
+
+#### Features to add in the future:
 - Feedback from previous customers
-- Search-button with the possibility to search for keywords within the website.
+- Search-button with the possibility to search for project-keywords within the website.
 - Pages dedicated to each portfolio-collection/project in all categories.
+- Fix images, good quality, but as small and easy-loadable as possible
+- The contact-form is well fitted to smaller devices, but on large monitors there is no need for the input-fields to stretch across the whole page... The project has initially been mobile-first-oriented (as it should). Going forward, I would like to develop and beautify the layout on larger monitors, espesially for contact.html and about-us.html.   
+
+
 
 ## Issues overcome
 - Major problem with nav-dropdown, turned out to be faulty links to Bootstral Javascript. Lots of work for nothing.
+
+- Difficulty with aligning og inline-boxes. Soved with flexboxes.
+
 
 
 ## Technology used
@@ -90,9 +135,14 @@ https://validator.w3.org/
 ![Picture of results HTML-vlidation about-us.html](assets/images/readme-images/httml-validator-about-us.html.png)
 ![Picture of results HTML-vlidation contact.html](assets/images/readme-images/httml-validator-contact.html.png)
 
+The HTML-validation 
+
 #### CSS-validator
 
-![Picture of results HTML-vlidation style.css](assets/images/readme-images/...)
+![Picture of results HTML-vlidation style.css](assets/images/readme-images/css-validator.png)
+
+The CSS-validator helped me a lot, by pointing out an incorrect attempt to target the child of another element. I thought my solution did not work, but after correcting the error the CSS-validator alerted me to, the solution worked perfectly! And the validator was happy too :)
+![Picture of results HTML-vlidation style.css](assets/images/readme-images/css-validator-after-fix.png)
 
 
 
@@ -147,7 +197,7 @@ https://validator.w3.org/
  I found the info here: https://css-tricks.com/couple-takes-sticky-footer/
 
 
-- There is still a question regarding the categories in the nav-dropdown, regarding the fact that both the 4 main-categories and the sub-categories are links to other pages. As the other pages are not yet 
+- There is still a question regarding the categories in the nav-dropdown, when used on a small or medium device, the nav-bar is collapsed, and the user has to click fashion-design-link to open the subcategory beneath. But as the link is then pressed, the sub-list regarding the fact that both the 4 main-categories and the sub-categories are links to other pages. As the other pages are not yet 
 
 - The inline-blocks on the frontpage (the 4 design-areas) align nicely now on larger displays with the d-flex-class on the parent-container, but they do not adjust well to smaller displays. More work required.
 
