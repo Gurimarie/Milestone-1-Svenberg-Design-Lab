@@ -3,9 +3,9 @@
 This website has been designed to showcase the work of Svenberg Design Lab, and to be a place for prospective customers and collabortors to explore the previous work of the company.
 The target audience consists of two groups; the private customer who has a design-wish to be fulfulled, and the professional customer looking for a design-company for collaboration.
 
-![Picture of different view-port-displays](assets/images/readme-images/snapshot-different-devices.png)
+![Picture of different view-port-displays](assets/images/readme-images/device-responsive.png)
 
-Click here to view the website
+[Click here to view the website](https://gurimarie.github.io/Milestone-1-Svenberg-Design-Lab/)
 
 ## User Experience (UX)
 
@@ -29,11 +29,12 @@ Another important reason behind the site is simply to collect and showcase previ
 ### Colour scheme:
 
 ![Picture of dark, brown-black colour](assets/images/readme-images/Colour-palettem.png)
-
-The colour-palett has been chosen to reflect the general ...............
+(Colour-scheme made in Word)
+<br>
+The colour-palett has been chosen to reflect the general mood of the company's projects.
 Both as a good back-drop to showcase the previous projects of the company, but also to set the potential customer in the right mood and right away give them a feel for whether Svenberg Design Lab is the right company for them.
 The colours are a mix between the traditional and the more modern, whith a heavy emphasis on the "cold neutral beiges and a dark brown, that is almost black. 
-(Colour-scheme made in Word)
+
 <br>
 <br>
 ### Typography:
@@ -78,11 +79,11 @@ A sample-picture of each of the three design-categories the company is engaged i
 The page concludes with a footer-element, with links to social media (only main-page, not company-specific), a link to the contact-page (for devices over size "large and above" (specifically dimensions ≥992px).
 
 ### Navbar:
-
+Responsive navbar for easy navigation from page to page without having to go back. Dropdown-menu for the 4 main design-areas, and also sub-dropdown.menus down to each collection, for fast and efficient moving, if you know where you want to go aldready. Also includes a link to the Home-page in the "logo" (Brand-name) on the left of the nav-bar.
 
 
 ### About Us:
-
+Backgroundinfo. No special features.
 
 
 
@@ -104,27 +105,37 @@ The Fashion-design-portfolio-page, will show a representativ photo from each col
 - Pages dedicated to each portfolio-collection/project in all categories.
 - Fix images, good quality, but as small and easy-loadable as possible
 - The contact-form is well fitted to smaller devices, but on large monitors there is no need for the input-fields to stretch across the whole page... The project has initially been mobile-first-oriented (as it should). Going forward, I would like to develop and beautify the layout on larger monitors, espesially for contact.html and about-us.html.   
-- Make the cards
+- Make the cards on fashion-portfolio the same height.
 
 
 
 ## Issues overcome
-- Major problem with nav-dropdown, turned out to be faulty links to Bootstral Javascript. Lots of work for nothing.
+
+- Major problem with nav-dropdown, turned out to be faulty links to Bootstral Javascript. Lots of work for nothing. Next time, wil check the HTML and CSS-validators first.
 
 - Difficulty with aligning og inline-boxes. Soved with flexboxes.
+- As someone who is new to coding, almost everything is an issue to overcome at this point, but I have relyed heavily on going back to our school-projects, going through the processes again, and that has helped tremendously.
 
 
 
 ## Technology used
 ### Programming languages:
-- html
-- css
-- Bootstrap (JavaScript?)
+- HTML5
+- CSS3
+- Bootstrap (JavaScript)
 
 ### Frameworks, libraries and programs:
-- Bootstrap
+- Bootstrap, to make the website responsive
 - Google Fonts
 - Font-awsome
+- Flex-bokses
+- Grid-system
+- Balsamiq for wireframe-images, and planning of the layout
+- Am I Responsive? used to create a mockup for the website on different devices (first picure in this readme)
+- Github for storing the project
+- Git for version-control
+- Visual Studio Code for coding
+
 
 ## Testing
 
@@ -136,7 +147,10 @@ https://validator.w3.org/
 ![Picture of results HTML-vlidation about-us.html](assets/images/readme-images/httml-validator-about-us.html.png)
 ![Picture of results HTML-vlidation contact.html](assets/images/readme-images/httml-validator-contact.html.png)
 
-The HTML-validation 
+I sent each html-page through the HTML-validator, and these are the issues that came up initially.
+The validator found some problems, and they were about two issues; one about my improper/overuse of section-elements, and one regarding the jquery-link to Bootstrap, which turned out to be the reason why my dropdown-nav-menus stopped working. Both issues have been solved, and files re-testet to be sure there are no other issues.
+
+
 
 #### CSS-validator
 
@@ -148,8 +162,10 @@ The CSS-validator helped me a lot, by pointing out an incorrect attempt to targe
 
 
 ### Testing for user stories in UX-section:
+When I come to the website as a new customer, I immediately se 4 picures that represents the 4 design-areas, and I can click the link under the picture to go to the are I want to study further. Also whith the dropdown-menu and sub-menu, I get a clear picture of how the website is structures, and where I can find what info. 
 
 ### Further testing:
+All internal links hav been tested and re-tested and cross-checked again and again. There are many internal links here, espescially because the site is set up to become much bigger (more pages) than what is there now, and the links are already set up.
 
 ### Fixed bugs:
 
@@ -207,25 +223,15 @@ The CSS-validator helped me a lot, by pointing out an incorrect attempt to targe
 ## Deployment
 
 ### Github pages:
-
-### Forking the GitHub repository:
-
-### Making a local clone:
+The project is deployed through GitHub Pages, by signing in to Github, opening the project-repository, going to settings, and selecting GitHub Pages on the settings-page. Under "Source, I chose the Master breanch, and GitHub started working on the deployment. The website was ready to be viewed almost immediately. 
 
 
 ## Credits
 
 ### Code:
 
-- https://github.com/PaulFrankling/discover-north-yorks used for README-structure.
+- https://github.com/PaulFrankling/discover-north-yorks used as a template for structure and what to include in the README.
 - Code Institute courses for everything
-
-### Content:
-
-### Media used:
-
-### Acknowledgements:
-
-
+- getBootstrap documentation has also been used heavily.
 
 
