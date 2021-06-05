@@ -19,7 +19,7 @@
     }
     
     .main-bg-color {
-        color: black;
+        color: rgb(31, 29, 26);
         background-color: rgb(161, 148, 131);
     }
     
@@ -144,6 +144,15 @@ and then displaying them, when mouse hovering over parent category ...*/
     
     .headline-on-image {
         width: 100%;
+    }
+    
+    .all-clickable {
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    .all-clickable> {
+        color: rgb(31, 29, 26);
     }
     
     #front-page-fashion {
