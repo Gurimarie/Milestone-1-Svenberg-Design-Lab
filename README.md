@@ -52,11 +52,9 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 
 ## Features
 
-- Need "Sorry, page not working, click here to go back" for when form on contact-page is submitted, and the action-page does not exist.
+
 - Need "I'm working on it" for when form on contact-page is submitted
-- Need perhaps also "I'm working on it" for when a nav-button is clicked?
-- Click "out of" nav-hamburger without selecting anything (now it stays open until you select a link)
-- Add a video- or audio-file somewhere (required)
+- Add a video- or audio-file somewhere (required) or pop-up!!
 - Fix images, good quality, but as small and easy-loadable as possible
 
 
@@ -65,8 +63,10 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 #### Future features:
 - Feedback from previous customers
 - Search-button with the possibility to search for keywords within the website.
+- Pages dedicated to each portfolio-collection/project in all categories.
 
 ## Issues overcome
+- Major problem with nav-dropdown, turned out to be faulty links to Bootstral Javascript. Lots of work for nothing.
 
 
 ## Technology used
@@ -83,6 +83,18 @@ Open Sans works well with Poppins, as it has much of the same overall feeling, a
 ## Testing
 
 ### Validation:
+
+#### HTML-validator 
+https://validator.w3.org/
+![Picture of results HTML-vlidation index.html](assets/images/readme-images/httml-validator-index.html.png)
+![Picture of results HTML-vlidation about-us.html](assets/images/readme-images/httml-validator-about-us.html.png)
+![Picture of results HTML-vlidation contact.html](assets/images/readme-images/httml-validator-contact.html.png)
+
+#### CSS-validator
+
+![Picture of results HTML-vlidation style.css](assets/images/readme-images/...)
+
+
 
 ### Testing for user stories in UX-section:
 
